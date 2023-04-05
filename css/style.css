@@ -1,0 +1,21 @@
+path {
+    transition: .1s;
+  }
+
+.bg-salmon{
+  background-color: salmon;
+}
+
+.text-salmon{
+  color: salmon;
+}
+
+.border-salmon{
+  border: solid salmon;
+}
+
+.overlay{
+  position: absolute;
+  top: 110px;
+
+}
