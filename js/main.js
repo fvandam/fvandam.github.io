@@ -41,4 +41,13 @@ const dutchContact = document.querySelector('.dutch-contact');
 const btnDutch = document.querySelector('.btn-dutch');
 const btnEnglish = document.querySelector('.btn-english');
 
+function functionDutch(){
 
+}
+
+function functionEnglish(){
+
+}
+
+btnDutch.addEventListener('click', functionDutch);
+btnEnglish.addEventListener('click', functionEnglish);
