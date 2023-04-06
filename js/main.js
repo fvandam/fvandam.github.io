@@ -19,7 +19,6 @@
     }
   
     // Scroll Listener
-    // https://developer.mozilla.org/en-US/docs/Web/Events/scroll
     window.addEventListener("scroll", function(e) {
       last_known_scroll_position = window.scrollY;
   
@@ -33,3 +32,11 @@
       ticking = true;
     });
   })();
+
+  //transloter
+
+  //queryselectors
+  const dutchBlock = document.querySelector('.dutch-version');
+  const dutchContact = document.querySelector('.dutch-contact');
+
+  
