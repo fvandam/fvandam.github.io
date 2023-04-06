@@ -19,3 +19,11 @@ path {
   top: 110px;
 
 }
+
+.hidden{
+  display: none;
+}
+
+.hoverTranslate:hover{
+  background-color: salmon;
+}
