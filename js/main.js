@@ -36,7 +36,9 @@
   //transloter
 
   //queryselectors
-  const dutchBlock = document.querySelector('.dutch-version');
-  const dutchContact = document.querySelector('.dutch-contact');
+const dutchBlock = document.querySelector('.dutch-version');
+const dutchContact = document.querySelector('.dutch-contact');
+const btnDutch = document.querySelector('.btn-dutch');
+const btnEnglish = document.querySelector('.btn-english');
 
-  
+
