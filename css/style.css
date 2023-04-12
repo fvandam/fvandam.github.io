@@ -27,3 +27,15 @@ path {
 .hoverTranslate:hover{
   background-color: salmon;
 }
+
+.bg-creme{
+  background-color: #faefe0;
+}
+
+.bg-green{
+  background-color: #90EE90;
+}
+
+.text-green{
+  color: #21837C;
+}
