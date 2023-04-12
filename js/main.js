@@ -42,13 +42,13 @@ const btnDutch = document.querySelector('.btn-dutch');
 const btnEnglish = document.querySelector('.btn-english');
 
 function functionDutch(){
-  mainElement.classList.toggle('hidden');
+  mainElement.classList.remove('hidden');
+  mainEnglish.classList.add('hidden')
 }
 
 function functionEnglish(){
-  console.log('engels');
-  englishBlock.classList.remove('hidden');
-  englishContact.classList.remove('hidden');
+  mainEnglish.classList.remove('hidden')
+  mainElement.classList.add('hidden')
 }
 
 btnDutch.addEventListener('click', functionDutch);
