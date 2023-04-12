@@ -36,23 +36,20 @@
   //transloter
 
   //queryselectors
-const dutchBlock = document.querySelector('.dutch-version');
-const dutchContact = document.querySelector('.dutch-contact');
+const mainElement = document.querySelector('.main');
 const englishBlock = document.querySelector('.english-version');
 const englishContact = document.querySelector('.english-contact');
 const btnDutch = document.querySelector('.btn-dutch');
 const btnEnglish = document.querySelector('.btn-english');
 
 function functionDutch(){
-  dutchBlock.classList.remove('hidden');
-  dutchContact.classList.remove('hidden');
+  mainElement.classList.remove('hidden');
   englishBlock.classList.add('hidden');
   englishContact.classList.add('hidden');
 }
 
 function functionEnglish(){
-  dutchBlock.classList.add('hidden');
-  dutchContact.classList.add('hidden');
+  console.log('engels');
   englishBlock.classList.remove('hidden');
   englishContact.classList.remove('hidden');
 }
