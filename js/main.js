@@ -37,15 +37,12 @@
 
   //queryselectors
 const mainElement = document.querySelector('.main');
-const englishBlock = document.querySelector('.english-version');
-const englishContact = document.querySelector('.english-contact');
+const mainEnglish = document.querySelector('.main-english');
 const btnDutch = document.querySelector('.btn-dutch');
 const btnEnglish = document.querySelector('.btn-english');
 
 function functionDutch(){
-  mainElement.classList.remove('hidden');
-  englishBlock.classList.add('hidden');
-  englishContact.classList.add('hidden');
+  
 }
 
 function functionEnglish(){
