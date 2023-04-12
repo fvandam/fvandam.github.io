@@ -39,3 +39,7 @@ path {
 .text-green{
   color: #21837C;
 }
+
+.border-green{
+  border: solid #21837C;
+}
