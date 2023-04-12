@@ -42,7 +42,7 @@ const btnDutch = document.querySelector('.btn-dutch');
 const btnEnglish = document.querySelector('.btn-english');
 
 function functionDutch(){
-  
+  mainElement.classList.toggle('hidden');
 }
 
 function functionEnglish(){
