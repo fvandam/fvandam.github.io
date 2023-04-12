@@ -1,6 +1,6 @@
 (function() {
     // Variables
-    let $curve = document.getElementById("curve");
+    let $curve = document.querySelector(".curve");
     let last_known_scroll_position = 0;
     let defaultCurveValue = 350;
     let curveRate = 3;
