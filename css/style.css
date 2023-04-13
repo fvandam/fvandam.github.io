@@ -5,6 +5,12 @@
   height: 100vh;
 }
 
+.bg-side{
+  background-image: url(../img/side.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 .remove-dot{
   list-style: none
 }
