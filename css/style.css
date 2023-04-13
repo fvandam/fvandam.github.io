@@ -8,3 +8,7 @@
 .remove-dot{
   list-style: none
 }
+
+.side-height{
+  height: 100vh;
+}
