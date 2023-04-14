@@ -18,3 +18,7 @@
 .side-height{
   height: 100vh;
 }
+
+.accordion {
+  --bs-accordion-active-bg: rgb(190, 190, 190);
+}
