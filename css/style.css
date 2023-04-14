@@ -23,6 +23,10 @@
   --bs-accordion-active-bg: rgb(190, 190, 190);
 }
 
+.hidden{
+  display: none;
+}
+
 @media (max-width: 768px) {
   .side-bar {
     display: none;
