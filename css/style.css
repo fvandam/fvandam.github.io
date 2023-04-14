@@ -22,3 +22,9 @@
 .accordion {
   --bs-accordion-active-bg: rgb(190, 190, 190);
 }
+
+@media (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+}
