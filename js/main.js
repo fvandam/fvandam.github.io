@@ -20,5 +20,6 @@ else if(contactBlock){
 }
 
 function translatePage(){
-
+    if(page && (aboutBlock || workBlock || projectBlock || contactBlock)){
+        
 }
