@@ -26,9 +26,12 @@ else if(contactBlock){
 }
 
 function translatePage(){
-    if(page && (aboutBlock || workBlock || projectBlock || contactBlock)){
-        .classList.toggle('hidden')
-
+    if(page && (homeBlock || aboutBlock || workBlock || projectBlock || contactBlock)){
+        dutchVersion.classList.toggle('hidden');
+        englishVersion.classList.toggle('hidden');
     }
 }
+
+dutchBtn.addEventListener('click', translatePage);
+englishBtn.addEventListener('click', translatePage);
 
