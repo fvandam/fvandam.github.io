@@ -6,6 +6,19 @@ const contactBlock = document.querySelector('.contact-block');
 
 let page = homeBlock;
 
+if(aboutBlock){
+    page = aboutBlock;
+}
+else if(workBlock){
+    page = workBlock;
+}
+else if(projectBlock){
+    page = projectBlock;
+}
+else if(contactBlock){
+    page = contactBlock
+}
+
 function translatePage(){
 
 }
