@@ -27,6 +27,10 @@
   display: none;
 }
 
+.flag-width{
+  width: 15%;
+}
+
 @media (max-width: 768px) {
   .side-bar {
     display: none;
