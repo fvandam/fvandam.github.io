@@ -4,6 +4,9 @@ const workBlock = document.querySelector('.work-block');
 const projectBlock = document.querySelector('.project-block');
 const contactBlock = document.querySelector('.contact-block');
 
+const dutchBtn = document.querySelector('.translate-dutch');
+const englishBtn = document.querySelector('.translate-english');
+
 let page = homeBlock;
 
 if(aboutBlock){
@@ -21,5 +24,8 @@ else if(contactBlock){
 
 function translatePage(){
     if(page && (aboutBlock || workBlock || projectBlock || contactBlock)){
-        
+        .classList.toggle('hidden')
+
+    }
 }
+
