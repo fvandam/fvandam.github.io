@@ -14,7 +14,9 @@ const translateAboutD = document.querySelector('.translate-aboutD');
 function translateDutchIndex(){
     indexDutch.classList.toggle('hidden');
     indexEnglish.classList.toggle('hidden');
+}
 
+function translateAbout(){
     aboutEnglish.classList.toggle('hidden');
     aboutDutch.classList.toggle('hidden');
 }
