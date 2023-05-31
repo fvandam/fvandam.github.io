@@ -28,7 +28,8 @@
   width: 15%;
 }
 
-.fade-in {
+/* animation */
+.fade-in4s {
   animation: fade-in 4s;
 }
 
@@ -42,6 +43,7 @@
   }
 }
 
+/* mediaquerys */
 @media (max-width: 768px) {
   .side-bar {
     display: none;
