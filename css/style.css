@@ -54,10 +54,32 @@
       transform: translateX(-500px)
   }
 
+  25%{
+    opacity: 0;
+    transform: translateX(-500px);
+  }
 
   100% {
       opacity: 1;
       transform: translateX(0);
+  }
+}
+
+.fade-in-btn {
+  animation: fade-in3 8s;
+}
+
+@keyframes fade-in3 {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
   }
 }
 
