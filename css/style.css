@@ -28,11 +28,11 @@
   width: 15%;
 }
 
-.fadein {
-  animation: fadein 2s;
+.fade-in {
+  animation: fade-in 2s;
 }
 
-@keyframes fadein {
+@keyframes fade-in {
   0% {
       opacity: 0;
       transform: translateX(-500px);
