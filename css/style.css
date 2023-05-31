@@ -29,9 +29,10 @@
 }
 
 /* animation */
-.fade-in4s {
-  animation: fade-in 4s;
+.fade-in2s {
+  animation: fade-in 2s;
 }
+
 
 @keyframes fade-in {
   0% {
@@ -40,6 +41,23 @@
 
   100% {
       opacity: 1;
+  }
+}
+
+.fade-in4s {
+  animation: fade-in2 4s;
+}
+
+@keyframes fade-in2 {
+  0% {
+      opacity: 0;
+      transform: translateX(-500px)
+  }
+
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
   }
 }
 
