@@ -28,6 +28,9 @@
   height: 100vh;
 }
 
+.text-underline{
+  text-decoration: underline;
+}
 
 .hidden{
   display: none;
