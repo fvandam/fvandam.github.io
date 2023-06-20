@@ -1,6 +1,8 @@
 *{
   overflow: hidden;
+  font-family: myFont;
 }
+
 
 .bg-side-block{
   background-color:rgb(184, 182, 216);
@@ -115,6 +117,47 @@
   }
 }
 
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: rgb(184, 182, 216);
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-family: myFont;
+}
+
 /* mediaquerys */
 @media (max-width: 768px) {
   .side-bar {
@@ -127,4 +170,10 @@
   .phone-nav{
     display: none;
   }
+}
+
+/* fonts  */
+@font-face{
+  font-family: myFont;
+  src: url(../fonts/Europhia.ttf);
 }
