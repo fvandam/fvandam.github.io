@@ -174,12 +174,7 @@ svg {
     display: none;
   }
 
-}
 
-@media (min-width: 768px){
-  .phone-nav{
-    display: none;
-  }
 }
 
 /* fonts  */
