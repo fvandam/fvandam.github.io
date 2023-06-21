@@ -2,6 +2,7 @@ const homeBlock = document.querySelector('.home-block');
 const aboutBlock = document.querySelector('.about-block');
 const workBlock = document.querySelector('.work-block');
 const projectBlock = document.querySelector('.project-block');
+const portfolioBlock = document.querySelector('.portfolio-block')
 const contactBlock = document.querySelector('.contact-block');
 
 const dutchBtn = document.querySelector('.translate-dutch');
