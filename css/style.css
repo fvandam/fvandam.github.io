@@ -3,6 +3,17 @@
   font-family: myFont;
 }
 
+.card-btn{
+  background-color: rgb(184, 182, 216);
+  border: 0px;
+  color: white;
+}
+
+.card-btn:hover{
+  background-color: white;
+  color: rgb(184, 182, 216);
+  border: 1px solid rgb(184, 182, 216);
+}
 
 .bg-side-block{
   background-color:rgb(184, 182, 216);
@@ -123,7 +134,7 @@
   position: absolute;
 }
 
-.btn {
+.btn-index {
   width: 180px;
   height: 60px;
   cursor: pointer;
@@ -143,16 +154,16 @@ svg {
   transition: 1s ease-in-out;
 }
 
-.btn:hover {
+.btn-index:hover {
   transition: 1s ease-in-out;
   background: rgb(184, 182, 216);
 }
 
-.btn:hover svg {
+.btn-index:hover svg {
   stroke-dashoffset: -480;
 }
 
-.btn span {
+.btn-index span {
   color: white;
   font-size: 18px;
   font-family: myFont;
