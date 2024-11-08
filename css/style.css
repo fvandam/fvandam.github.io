@@ -21,47 +21,12 @@
   text-decoration: underline;
 }
 
-
-.card-btn{
-  background-color: rgb(184, 182, 216);
-  border: 0px;
-  color: white;
+.border-color{
+  border: 1px solid var(--yellow);
 }
 
-.card-btn:hover{
-  background-color: white;
-  color: rgb(184, 182, 216);
-  border: 1px solid rgb(184, 182, 216);
-}
-
-.bg-side-block{
-  background-color:rgb(184, 182, 216);
-}
-
-.bg-side{
-  background-image: url(../img/side.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-.remove-dot{
-  list-style: none
-}
-
-.side-height{
-  height: 100vh;
-}
-
-.text-underline{
-  text-decoration: underline;
-}
-
-.hidden{
-  display: none;
-}
-
-.flag-width{
-  width: 15%;
+.text-yellow{
+  color: var(--yellow);
 }
 
 /* animation */
