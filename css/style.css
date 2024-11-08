@@ -1,6 +1,26 @@
 *{
-  font-family: myFont;
+  font-family: lemonMilk;
+  background-color: var(--blue);
 }
+
+:root{
+  --blue: #0a3380;
+  --yellow: #f1b434;
+  --l-gray: #e0ddd5;
+  --d-gray: #2e3546;
+  --brown: #703529;
+}
+
+.link-color{
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+.link-color:hover{
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
 
 .card-btn{
   background-color: rgb(184, 182, 216);
@@ -16,14 +36,6 @@
 
 .bg-side-block{
   background-color:rgb(184, 182, 216);
-}
-
-.bg-index{
-  background-image: url(../img/start_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  background-attachment: fixed;
 }
 
 .bg-side{
@@ -53,120 +65,13 @@
 }
 
 /* animation */
-.fade-in2s {
-  animation: fade-in 2s;
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
+.fade-in { animation: fadeIn 4s; }
 
-@keyframes fade-in {
-  0% {
-      opacity: 0;
-  }
-
-  100% {
-      opacity: 1;
-  }
-}
-
-.fade-in4s {
-  animation: fade-in2 4s;
-}
-
-@keyframes fade-in2 {
-  0% {
-      opacity: 0;
-      transform: translateX(-500px)
-  }
-
-  25%{
-    opacity: 0;
-    transform: translateX(-500px);
-  }
-
-  100% {
-      opacity: 1;
-      transform: translateX(0);
-  }
-}
-
-.fade-in-btn {
-  animation: fade-in3 8s;
-}
-
-@keyframes fade-in3 {
-  0% {
-      opacity: 0;
-  }
-
-  50% {
-    opacity: 0;
-  }
-
-  100% {
-      opacity: 1;
-  }
-}
-
-.fade-in-right{
-  animation: fade-in4 2s;
-}
-@keyframes fade-in4 {
-  0% {
-      opacity: 0;
-      transform: translateX(500px)
-  }
-
-  25%{
-    opacity: 0;
-    transform: translateX(500px);
-  }
-
-  100% {
-      opacity: 1;
-      transform: translateX(0);
-  }
-}
-
-.center {
-  width: 180px;
-  height: 60px;
-  position: absolute;
-}
-
-.btn-index {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  outline: none;
-  transition: 1s ease-in-out;
-}
-
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-}
-
-.btn-index:hover {
-  transition: 1s ease-in-out;
-  background: rgb(184, 182, 216);
-}
-
-.btn-index:hover svg {
-  stroke-dashoffset: -480;
-}
-
-.btn-index span {
-  color: white;
-  font-size: 18px;
-  font-family: myFont;
-}
 
 /* mediaquerys */
 @media (max-width: 768px) {
@@ -179,6 +84,6 @@ svg {
 
 /* fonts  */
 @font-face{
-  font-family: myFont;
-  src: url(../fonts/Europhia.ttf);
+  font-family: lemonMilk;
+  src: url(../fonts/LemonMilk.otf);
 }
